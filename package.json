@@ -1,0 +1,18 @@
+{
+  "name": "headless-chrome-package",
+  "version": "1.0.0",
+  "description": "proof of concept for puppeteer with headless chrome",
+  "main": "index.js",
+  "repository": "https://github.com/megh0682/headlesspoc.git",
+  "author": "Megha Iyer",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.1.0",
+    "puppeteer": "^0.13.0",
+    "slug":"^0.9.1"
+  },
+  "scripts": {
+        "test": "mocha --timeout 100000 ./runner.js tests/*/**.js"
+    }
+}
